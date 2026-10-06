@@ -1,0 +1,24 @@
+.bug-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.bug-form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.bug-form__hint {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 560px) {
+  .bug-form__row {
+    grid-template-columns: 1fr;
+  }
+}

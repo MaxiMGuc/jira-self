@@ -1,0 +1,49 @@
+.tc-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.tc-badge--status-draft {
+  background: #f2f4f7;
+  color: #475467;
+}
+
+.tc-badge--status-ready {
+  background: #f0f9ff;
+  color: #026aa2;
+}
+
+.tc-badge--status-active {
+  background: #ecfdf3;
+  color: #067647;
+}
+
+.tc-badge--status-archived {
+  background: #f2f4f7;
+  color: #344054;
+}
+
+.tc-badge--priority-low {
+  background: #f2f4f7;
+  color: #344054;
+}
+
+.tc-badge--priority-medium {
+  background: #fffaeb;
+  color: #b54708;
+}
+
+.tc-badge--priority-high {
+  background: #fff6ed;
+  color: #c4320a;
+}
+
+.tc-badge--priority-critical {
+  background: #fef3f2;
+  color: #b42318;
+}

@@ -1,0 +1,23 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 650;
+}
+
+.status-badge--active {
+  background: #ecfdf3;
+  color: #067647;
+}
+
+.status-badge--on_hold {
+  background: #fffaeb;
+  color: #b54708;
+}
+
+.status-badge--archived {
+  background: #f2f4f7;
+  color: #475467;
+}

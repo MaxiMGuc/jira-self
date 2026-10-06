@@ -1,0 +1,60 @@
+.bug-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.bug-badge--status-open,
+.bug-badge--status-reopened {
+  background: #eff4ff;
+  color: #3538cd;
+}
+
+.bug-badge--status-in_progress {
+  background: #fffaeb;
+  color: #b54708;
+}
+
+.bug-badge--status-fixed,
+.bug-badge--status-ready_for_qa {
+  background: #f0f9ff;
+  color: #026aa2;
+}
+
+.bug-badge--status-verified {
+  background: #ecfdf3;
+  color: #067647;
+}
+
+.bug-badge--status-closed {
+  background: #f2f4f7;
+  color: #475467;
+}
+
+.bug-badge--priority-low,
+.bug-badge--severity-minor {
+  background: #f2f4f7;
+  color: #344054;
+}
+
+.bug-badge--priority-medium,
+.bug-badge--severity-major {
+  background: #fffaeb;
+  color: #b54708;
+}
+
+.bug-badge--priority-high,
+.bug-badge--severity-critical {
+  background: #fff6ed;
+  color: #c4320a;
+}
+
+.bug-badge--priority-critical,
+.bug-badge--severity-blocker {
+  background: #fef3f2;
+  color: #b42318;
+}

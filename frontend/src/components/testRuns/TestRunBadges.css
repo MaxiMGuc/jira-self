@@ -1,0 +1,44 @@
+.tr-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.tr-badge--run-not_started {
+  background: #f2f4f7;
+  color: #475467;
+}
+
+.tr-badge--run-in_progress {
+  background: #f0f9ff;
+  color: #026aa2;
+}
+
+.tr-badge--run-completed {
+  background: #ecfdf3;
+  color: #067647;
+}
+
+.tr-badge--result-passed {
+  background: #ecfdf3;
+  color: #067647;
+}
+
+.tr-badge--result-failed {
+  background: #fef3f2;
+  color: #b42318;
+}
+
+.tr-badge--result-blocked {
+  background: #fffaeb;
+  color: #b54708;
+}
+
+.tr-badge--result-not_run {
+  background: #f2f4f7;
+  color: #475467;
+}

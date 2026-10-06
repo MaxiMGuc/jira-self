@@ -1,0 +1,12 @@
+.ts-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.ts-form__hint {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}

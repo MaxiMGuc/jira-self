@@ -1,0 +1,89 @@
+.add-cases__hint {
+  margin: 0 0 0.85rem;
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.add-cases__empty {
+  margin: 0.85rem 0;
+  padding: 0.85rem 0.95rem;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+}
+
+.add-cases__list {
+  list-style: none;
+  margin: 0.85rem 0 0;
+  padding: 0;
+  max-height: 16rem;
+  overflow: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.add-cases__list--included {
+  max-height: 8rem;
+  background: var(--color-surface-muted);
+}
+
+.add-cases__option {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  padding: 0.7rem 0.8rem;
+  border-bottom: 1px solid var(--color-border);
+  cursor: pointer;
+}
+
+.add-cases__option:last-child {
+  border-bottom: 0;
+}
+
+.add-cases__option input {
+  margin-top: 0.2rem;
+}
+
+.add-cases__option--disabled {
+  cursor: default;
+  color: var(--color-text-muted);
+}
+
+.add-cases__id {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.add-cases__title {
+  display: block;
+  margin-top: 0.15rem;
+  font-weight: 650;
+}
+
+.add-cases__meta {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+}
+
+.add-cases__included {
+  margin-top: 0.9rem;
+}
+
+.add-cases__included-label {
+  margin: 0 0 0.35rem;
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 560px) {
+  .add-cases__list {
+    max-height: 12rem;
+  }
+}

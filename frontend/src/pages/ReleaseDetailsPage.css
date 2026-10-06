@@ -1,0 +1,121 @@
+.rel-details__crumb {
+  margin: 0 0 0.75rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.rel-details__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.rel-details__id {
+  margin: 0 0 0.25rem;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.rel-details__title {
+  margin: 0 0 0.45rem;
+  font-size: 1.7rem;
+  letter-spacing: -0.03em;
+}
+
+.rel-details__description,
+.rel-details__hint,
+.rel-details__state {
+  margin: 0 0 0.7rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}
+
+.rel-details__description {
+  max-width: 46rem;
+}
+
+.rel-details__meta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 1.3rem;
+}
+
+.rel-details__meta div {
+  padding: 0.8rem 0.9rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.rel-details__meta dt {
+  margin-bottom: 0.3rem;
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.rel-details__meta dd {
+  margin: 0;
+  font-weight: 650;
+}
+
+.rel-details__section {
+  margin-bottom: 1.4rem;
+}
+
+.rel-details__section h2,
+.rel-related h2 {
+  margin: 0 0 0.45rem;
+  font-size: 1.1rem;
+}
+
+.rel-related__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.rel-related__card {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.rel-related__card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 0.86rem;
+}
+
+.rel-related__value {
+  margin: 0 0 0.45rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.rel-related__card p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .rel-details__meta {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .rel-details__header {
+    flex-direction: column;
+  }
+
+  .rel-details__meta,
+  .rel-related__grid {
+    grid-template-columns: 1fr;
+  }
+}

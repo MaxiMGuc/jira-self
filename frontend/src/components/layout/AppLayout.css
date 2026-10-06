@@ -1,0 +1,33 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+.app-layout__main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.app-layout__content {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.app-layout__backdrop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .app-layout__backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 15;
+    border: 0;
+    background: rgb(16 22 34 / 45%);
+    cursor: pointer;
+  }
+}
